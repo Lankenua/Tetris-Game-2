@@ -1,4 +1,3 @@
-// === LANKEN TETRIS === //
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 const scoreDisplay = document.getElementById("score");
@@ -207,3 +206,4 @@ function update(time = 0) {
 
 // --- Start the game ---
 update();
+
